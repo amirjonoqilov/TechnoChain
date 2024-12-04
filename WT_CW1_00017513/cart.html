@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="Stylesheet" href="general_css/styles_cart.css">
+  
+</head>
+<body>
+    <nav>
+        <header><a href="https://taplink.cc/technochain.uz"> <img id ="logo" src = "images/TechnoChain.jpg" alt="Techno-img"></a></header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="products.html">Products</a></li>
+            <li ><a href = "cart.html">Cart</a></li>
+            <li><a href = "FAQ.html">FAQ</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+            
+        </ul>
+        <button id = "sign-in" onclick="window.location.href='sign_in.html'">Sign in</button>
+    </nav>
+
+    <h1>Shopping Cart</h1>
+    <div id="cart">
+        <h3>Desktop</h3>
+        <div class="cart-item">
+            
+            <div class="price-options">
+                <label for="product1-price">Select option:</label>
+                <select id="product1-price">
+                    <option value="700">$700</option>
+                    <option value="1000">$1000</option>
+                    <option value="1200">$1200</option>
+                </select>
+            </div>
+            <div class="quantity-control">
+                <button onclick="decrease_desktop()">-</button>
+                <input type="number" id ="inputDesktop" value="0" min="0">
+                <button onclick="increase_desktop()">+</button>
+            </div>
+        </div>
+
+         <h3>Monitor</h3>
+        <div class="cart-item">
+           
+            <div class="price-options">
+                <label for="product2-price">Select option:</label>
+                <select id="product2-price">
+                    <option value="300">$300</option>
+                    <option value="500">$500</option>
+                    <option value="800">$800</option>
+                </select>
+            </div>
+            <div class="quantity-control">
+                <button onclick="decrease_monitor()">-</button>
+                <input type="number" id="inputMonitor" value="0" min="0">
+                <button onclick="increase_monitor()">+</button>
+            </div>
+        </div>
+
+        <h3>Laptop</h3>
+        <div class="cart-item">
+            
+            <div class="price-options">
+                <label for="product3-price">Select option:</label>
+                <select id="product3-price">
+                    <option value="800">$800</option>
+                    <option value="1200">$1200</option>
+                    <option value="1800">$1800</option>
+                </select>
+            </div>
+            <div class="quantity-control">
+                <button onclick="decrease_L()">-</button>
+                <input type="number" id ="inputL" value="0" min="0">
+                <button onclick="increase_L()">+</button>
+            </div>
+        </div>
+
+        <h3>Server</h3>
+        <div class="cart-item">
+            
+            <div class="price-options">
+                <label for="product4-price">Select Size:</label>
+                <select id="product4-price">
+                    <option value="900">$900</option>
+                    <option value="180">$2000</option>
+                    <option value="250">$4000</option>
+                </select>
+            </div>
+            <div class="quantity-control">
+                <button onclick="decrease_S()">-</button>
+                <input type="number" id="inputS" value="0" min="0">
+                <button onclick="increase_S()">+</button>
+            </div>
+        </div>
+    </div>
+
+    <div id ="total-output">
+
+    <div class="total" id="total">Total item: 0</div>
+    <button onclick="calculateTotal()" id ="calculate">Calculate Total</button>
+    </div>
+    <footer>
+        <img src="images/TechnoChain.jpg" alt="img-logo">
+        <div>  <p> <strong>Our Offerings</strong><br>
+         Products<br>
+         Solutions<br>
+         Services<br>
+         Deals<br></p> 
+     <p>Free delivery<br>
+     location: Malika Store</p></div>
+       
+     </footer>
+    <script
+    src="cart.js"></script>
+</body>
+</html>

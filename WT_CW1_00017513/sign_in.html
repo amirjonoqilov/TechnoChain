@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="Stylesheet" href="general_css/styles_sign_in.css">
+</head>
+<body>
+    <nav>
+        <header><a href="https://taplink.cc/technochain.uz"> <img id ="logo" src = "images/TechnoChain.jpg" alt="img-logo"></a></header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="products.html">Products</a></li>
+            <li ><a href = "cart.html">Cart</a></li>
+            <li><a href = "FAQ.html">FAQ</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+            
+        </ul>
+        <button onclick="window.location.href='sign_in.html'">Sign in</button>
+    </nav>
+
+    <section>
+        <div class="wrapper">
+            <form>
+                <h1>Login</h1>
+                <div class="box">
+                    <input type="text" placeholder="Username" required>
+                    <img src="images/user_img.png" alt="user-img">
+                </div>
+                <div class="box">
+                    <input type="password" placeholder="Password" required>
+                    <img src="images/lock_img.png" alt="user-img">
+                </div>
+
+                <div class="remember">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button class="btn-login">Login</button>
+                <div class="register">
+                    <p>Dont have an account? <a href="#">Register</a></p>
+
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

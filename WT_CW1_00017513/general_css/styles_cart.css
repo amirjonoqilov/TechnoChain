@@ -1,0 +1,141 @@
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:rgba(101, 129, 117, 0.274);   
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 30px
+}
+
+nav ul li{
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 5px;
+    padding: 5px 10px;     
+}
+
+header{
+    margin-left: 20px;
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#sign-in{
+    margin-right: 20px;
+    background-color: #489e4cbf; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+nav ul li:hover{
+    background-color: #0637fb86; 
+    transform: scale(1.05); 
+}
+#sign-in:hover {
+    background-color: #d5ff0138; 
+    transform: scale(1.05); 
+}
+
+#sing-in:active {
+    background-color: #3e8e41; 
+    transform: scale(0.95); 
+}
+
+a{
+    text-decoration: none;
+    color: #7a3901ac;
+}
+
+/*starts from here*/
+
+h1{
+    text-align: center;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;   
+    width: 80%;
+    max-width: 900px;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 208, 0.256);
+}
+
+h3 {
+    margin: 10px;
+}
+
+label{
+    color: #7a3901ac;
+}
+
+.price-options select {
+    margin-right: 10px;
+    background-color: rgba(101, 129, 117, 0.274);
+}
+input{
+    width: 30px;
+    text-align: center;
+}
+.total {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#total-output{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    width: 80%;
+    max-width: 900px;
+}
+#calculate{
+    background-color: #3e8e41;
+}
+
+footer img{
+    width: 100px;
+    padding:20px
+}
+footer{
+    background-color: black;
+    height:300px;
+    width: 100%;
+
+}
+footer p{
+    color:aliceblue;
+    margin-left: 30px;
+}
+footer div{
+    display: flex;
+    justify-content: start;
+}

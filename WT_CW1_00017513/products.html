@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="Stylesheet" href ="general_css/styles_products.css">
+    
+</head>
+<body>
+    <nav>
+        <header><a href="https://taplink.cc/technochain.uz"> <img id ="logo" src = "images/TechnoChain.jpg" alt="img"></a></header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="products.html">Products</a></li>
+            <li ><a href = "cart.html">Cart</a></li>
+            <li><a href = "FAQ.html">FAQ</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+            
+        </ul>
+        <button onclick="window.location.href='sign_in.html'">Sign in</button>
+    </nav>
+    
+    <button id ="fixed_cart" onclick="window.location.href='cart.html'"><img src="images/img_cart.png" alt="cart-img"></button>
+    <section>
+        <h2>Products</h2>
+        <article id ="desktop_ar"> <h2>Desktop</h2>Dell desktops are reliable and innovative, designed for both personal and professional use. Known for durability, performance, and sleek design, Dell offers various models like OptiPlex for businesses and XPS for high-performance users. With customizable configurations, efficient processors, and robust support, Dell desktops cater to diverse computing needs.</article>
+        <div class = "Products_position" id="desktop">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Option 1</th>
+                    <th>Option 2</th>
+                    <th>Option 3</th>
+                </tr>
+                <tr>
+                    <td>CPU</td>
+                    <td>Intel i5</td>
+                    <td>Intel i7</td>
+                    <td>Intel i9</td>
+                </tr>
+                <tr>
+                    <td>GPU</td>
+                    <td>3060 6GB</td>
+                    <td>3080 8GB</td>
+                    <td>4070 8GB</td>                    
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td>8 GB</td>
+                    <td>16 GB</td>
+                    <td>32 GB</td>
+                </tr>
+                <tr>
+                    <td>SSD</td>
+                    <td>512 GB</td>
+                    <td>1 TB</td>
+                    <td>2 TB</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td>700$</td>
+                    <td>1000$</td>
+                    <td>1200$</td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input name ="rb-desktop" type="radio" id="rbd1" value = "700"></td>
+                    <td><input name ="rb-desktop" type="radio" id="rbd2" value ="1000"></td>
+                    <td><input name ="rb-desktop" type="radio" id="rbd3" value = "1200"></td>
+                    
+        
+                     
+                </tr> 
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class = "ADD" onclick="desktop_cart()">Add To Cart</button></td>
+
+                </tr> 
+                            
+            </table>
+            
+            
+            <p><img src ="images/desktop.avif" alt="Laptop img"></p>
+
+        </div>
+        
+        <article id ="monitor_ar"><h2>Monitor</h2>Dell monitors are known for their high-quality displays, offering sharp visuals and vibrant colors. They cater to various needs, from gaming and creative work to professional and everyday use. Popular models like UltraSharp provide exceptional color accuracy, while Alienware monitors deliver fast refresh rates for gaming. Dell monitors prioritize performance and ergonomic designs</article>
+        <div class = "Products_position" id="monitor">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Option 1</th>
+                    <th>Option 2</th>
+                    <th>Option 3</th>
+                </tr>
+                <tr>
+                    <td>Resolution</td>
+                    <td>FHD</td>
+                    <td>QHD</td>
+                    <td>4K UHD</td>
+                </tr>
+                <tr>
+                    <td>Brightness</td>
+                    <td>600 nits</td>
+                    <td>800 nits</td>
+                    <td>1000 nits</td>                    
+                </tr>
+                <tr>
+                    <td>Size</td>
+                    <td>24 inch</td>
+                    <td>27 inch</td>
+                    <td>32 inch</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td><button>300$</button></td>
+                    <td><button>500$</button></td>
+                    <td><button>800$</button></td>
+                     
+                </tr>  
+
+                <tr>
+                    
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class = "ADD" onclick="desktop_cart()">Add To Cart</button></td>
+
+                </tr> 
+                            
+            </table>
+            
+            
+            <p><img src ="images/monitor.png" alt="Laptop img"></p>
+
+        </div>       
+        <article id ="laptop_ar"><h2>Laptop</h2>
+            HP Omen gaming laptops are designed for gamers seeking high performance and style. Featuring powerful Intel or AMD processors, NVIDIA GeForce graphics, and fast refresh-rate displays, they ensure smooth gameplay. Advanced cooling technology keeps temperatures in check, while customizable RGB lighting and sleek designs make them a favorite among gaming enthusiasts.</article>
+        <div class = "Products_position" id="laptop">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Option 1</th>
+                    <th>Option 2</th>
+                    <th>Option 3</th>
+                </tr>
+                <tr>
+                    <td>CPU</td>
+                    <td>Intel i5</td>
+                    <td>Intel i7</td>
+                    <td>Intel i9</td>
+                </tr>
+                <tr>
+                    <td>GPU</td>
+                    <td>3050 4GB</td>
+                    <td>3060 6GB</td>
+                    <td>3070 8GB</td>                    
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td>8 GB</td>
+                    <td>16 GB</td>
+                    <td>32 GB</td>
+                </tr>
+                <tr>
+                    <td>SSD</td>
+                    <td>512 GB</td>
+                    <td>1 TB</td>
+                    <td>2 TB</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td><button>800$</button></td>
+                    <td><button>1200$</button></td>
+                    <td><button>1800$</button></td>
+            
+                     
+                </tr>  
+                <tr>
+                    
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class = "ADD" onclick="desktop_cart()">Add To Cart</button></td>
+
+                </tr> 
+                            
+            </table>
+            
+            
+            <p><img src ="images/laptop.png" alt="Laptop img"></p>
+
+        </div>
+        <article id ="server_ar"><h2>Server</h2> servers, particularly the PowerEdge series, are robust and scalable solutions for businesses of all sizes. They offer high-performance computing, extensive storage options, and enhanced security features. Designed for efficiency, Dell servers support virtualization, cloud integration, and AI workloads. With reliable support and advanced management tools, they optimize enterprise operations.</article>
+        <div class = "Products_position" id = "server">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Option 1</th>
+                    <th>Option 2</th>
+                    <th>Option 3</th>
+                </tr>
+                <tr>
+                    <td>CPU</td>
+                    <td>Xeon E</td>
+                    <td>AMD Ryzen</td>
+                    <td>AMD EPYC</td>
+                </tr>
+                <tr>
+                    <td>Chasis</td>
+                    <td>1U</td>
+                    <td>2U</td>
+                    <td>4U</td>                    
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td>16 GB</td>
+                    <td>128 GB</td>
+                    <td>264 GB</td>
+                </tr>
+                <tr>
+                    <td>SSD</td>
+                    <td>512 GB</td>
+                    <td>1 TB</td>
+                    <td>2 TB</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td><button>900$</button></td>
+                    <td><button>2000$</button></td>
+                    <td><button>4000$</button></td>
+                 
+                     
+                </tr>  
+                <tr>
+                 
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class = "ADD" onclick="desktop_cart()">Add To Cart</button></td>
+
+                </tr> 
+                            
+            </table>
+            
+            
+            <p><img src ="images/server.avif" alt="Laptop img"></p>
+
+        </div>
+        
+    </section>
+    <script src="javascript.js"></script>
+    <footer>
+        <img src="images/TechnoChain.jpg" alt="footer-img">
+        <div>  <p> <strong>Our Offerings</strong><br>
+         Products<br>
+         Solutions<br>
+         Services<br>
+         Deals<br></p> 
+     <p>Free delivery<br>
+     location: Malika Store</p></div>
+       
+     </footer>
+</body>
+</html>

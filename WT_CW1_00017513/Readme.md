@@ -1,0 +1,5 @@
+
+
+
+
+This website is created for the TechnoChain brand that is popular on Instagram and Telegram. This brand specializes in selling products like laptops, desktops, mice, keyboards, and so on. I created only the front end of the website. In this website, I included four of these products that are desktops, laptops, monitors, and servers. There are 6 different pages on the website. The first one is called "Home," and users can get general information about the brand with the page. The second one is "Products." On this page, users can see all the products with three different options. They differentiate with configurations and price. The third page is called "Cart," and with the help of the page, users can choose the option and quantity of the products that they want to buy. The fourth page contains frequently asked questions; also, users can send questions on this page. The fifth and sixth pages are called “Contact” and “Sign in.”.
