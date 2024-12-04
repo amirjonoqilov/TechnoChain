@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascript.js"></script>
+    <link rel ="stylesheet" href="general_css/styles_contact.css">
+</head>
+<body>
+    <nav>
+        <header><a href="https://taplink.cc/technochain.uz"> <img id ="logo" src = "images/TechnoChain.jpg" alt="img"></a></header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="products.html">Products</a></li>
+            <li ><a href = "cart.html">Cart</a></li>
+            <li><a href = "FAQ.html">FAQ</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+            
+        </ul>
+        <button onclick="window.location.href='sign_in.html'">Sign in</button>
+    </nav>
+
+    <div class = "container">
+        <div class="box">
+            <div class="right">
+                <h2>Contact Us</h2>
+                <input type="text"  class="field" placeholder="Your Name">
+                <input type="email" class="field" placeholder="Your email">
+                <input type="tel"  class="field" placeholder="Your Phone">               
+                <textarea class="field" placeholder="Message"></textarea>
+                <p><input name = "chb1" type="checkbox" id="check">
+                <label> I agree with the terms.</label></p>
+                
+                <button class="btn" onclick="validate_checkbox()">Send</button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

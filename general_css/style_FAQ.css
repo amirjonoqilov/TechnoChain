@@ -1,0 +1,160 @@
+/*Standarts nav for every page*/
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:rgba(101, 129, 117, 0.274);   
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 30px
+}
+
+nav ul li{
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 5px;
+    padding: 5px 10px;     
+}
+
+header{
+    margin-left: 20px;
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+button{
+    margin-right: 20px;
+    background-color: #489e4cbf; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+nav ul li:hover{
+    background-color: #0637fb86; 
+    transform: scale(1.05); 
+}
+button:hover {
+    background-color: #d5ff0138; 
+    transform: scale(1.05); 
+}
+
+button:active {
+    background-color: #3e8e41; 
+    transform: scale(0.95); 
+}
+
+a{
+    text-decoration: none;
+    color: #7a3901ac;
+}
+
+/* Stars from here*/
+
+h1{
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align: start;
+
+}
+section p{
+    
+    text-align: start;
+    width: 70%;
+    height: auto;
+    background-color: rgba(0, 255, 255, 0.256);
+    padding: 20px;
+    border-radius: 7px;   
+}
+
+section p:hover{
+    background-color: lightgray;
+    transform: scale(1.01);
+}
+
+div{
+    display: flex;
+   
+}
+
+aside{
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+
+#question{
+    background-color: rgba(0, 255, 255, 0.342);
+    border-radius: 0;
+    width: 100%;
+    
+}
+h2{
+    text-align: center;
+    color: rgb(255, 140, 0);
+}
+
+textarea{
+    height: 20%; 
+    background-color: rgba(0, 255, 60, 0.336);
+}
+
+.textarea:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.message{
+    background-color: aliceblue;
+    border-radius: 7px;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+footer img{
+    width: 100px;
+    padding:20px
+}
+footer{
+    background-color: black;
+    height:300px;
+    width: 100%;
+
+}
+footer p{
+    color:aliceblue;
+    margin-left: 30px;
+}
+footer div{
+    display: flex;
+    justify-content: start;
+}
